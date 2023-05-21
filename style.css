@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth; /*** pour faire en sorte que la transition vers l'ancre du Typeform se fasse de manière smooooooooth ***/
+}
+
+.hero {
+  background-image: url('photo_fond_site.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.baseline {
+  font-size: 24px;
+  margin-top:25px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+
+body {
+  background-color:#fbfbfb;
+  font-family: Helvetica;
+}
+
+.container {
+  width:100%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #d8c360;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  width:150px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 calc(30% - 35px);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 10px;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.card p {
+  margin: 0;
+}
+
+#form{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 10px;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 50px;
+  color: #3498db;
+  text-decoration: none;
+}
